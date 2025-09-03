@@ -1,4 +1,14 @@
-baseURL = "http://localhost:1313/"
-languageCode = "ro"
-title = "Cabinet Contabilitate & Expertize Financiare"
+baseURL = "https://adrianpostoaca.github.io/contabilitate-site/"
+languageCode = "ro-ro"
+title = "Contabilitate și Expertize Financiare"
 theme = ""
+relativeURLs = true
+canonifyURLs = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Servicii contabile și expertize financiare"
+  author = "Numele firmei"
+  email = "contact@firma.ro"
