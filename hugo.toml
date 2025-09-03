@@ -1,0 +1,4 @@
+baseURL = "http://localhost:1313/"
+languageCode = "ro"
+title = "Cabinet Contabilitate & Expertize Financiare"
+theme = ""

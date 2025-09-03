@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+    <nav>
+      <a href="/">Acasă</a>
+      <a href="/despre/">Despre noi</a>
+      <a href="/servicii/">Servicii</a>
+      <a href="/tarife/">Tarife</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ now.Format "2006" }} Cabinet Contabilitate & Expertize Financiare</p>
+  </footer>
+</body>
+</html>
